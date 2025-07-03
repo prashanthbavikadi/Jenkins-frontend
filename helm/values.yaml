@@ -1,5 +1,6 @@
 configmap:
   port: 8080 #
+  nodePort: 30080 # for NodePort service type
 deployment: #
   imageVersion: IMAGE_VERSION # this is called placeholder
   replicas: 2
